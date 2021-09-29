@@ -1,6 +1,15 @@
 <style>
-            h1{color:slategray;}
+            h1{color:slategray; text-align: center;}
+            h3{text-align: center;}
+            h4{text-align: center;}
             img{width: 400px;}
-            #thirdDiv{width: 500px;height:600px;background-color: yellowgreen;border: 1px;border-style: solid; border-color: violet; padding: 50px;}
-            #spanId{font-size: 18px; margin: 50px;}
+            .divClass{text-align: center;}
+            #thirdDiv{max-width: 500px;height:600px;background-color: rgba(153, 205, 50, 0.26);border: 1px;border-style: solid; border-color: violet; padding: 50px; text-align: center; margin: 20px auto;}
+            #spanId{font-size: 18px; margin: 50px; text-align: center;}
+            html {
+                background: url(https://api.time.com/wp-content/uploads/2014/06/49cb79d35e3640a1b005287de39f1754-0.jpg) center center;
+                background-size: cover;
+                background-repeat: no-repeat;
+                overflow: auto;
+            }
 </style>
